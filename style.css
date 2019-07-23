@@ -92,10 +92,10 @@ body, html{
     display: none;
     background: white;
     border: 3px solid gold;
-    height: 120px;
-    width: 240px;
-    left: 30px;
-    top: 125px;
+    height: 125px;
+    width: 245px;
+    left: 28px;
+    top: 120px;
     position: absolute;
     font-size: x-large;
 }
