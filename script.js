@@ -11,8 +11,8 @@ var DRAW_OFFSET = 0 // how much draw offset in slot display from top
 
 var BLURB_TBL = [
     'Try Again!',
-    'Good!',
-    'Excellent!',
+    'Try Again!!',
+    'Try Again!',
     'JACKPOT!'
 ];
 
