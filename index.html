@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="ad.size" content="width=300,height=250">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slots</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="slide_1 absolute">
+    <div id="buttons" class="absolute">
+        <div id="play"></div>
+    </div>
+    <div id="reels" class="absolute" style="overflow: hidden">
+        <div class="absolute" style="width: 270px; height: 115px; left: 15px; top: 5px; overflow: hidden;">
+            <canvas id="canvas1" width="76" height="768" style="transform: translate3d(0px, 0px, 0px); height: 768px;"></canvas>
+            <canvas id="canvas2" width="76" height="768" style="height: 768px; transform: translate3d(0px, 0px, 0px);"></canvas>
+            <canvas id="canvas3" width="76" height="768" style="transform: translate3d(0px, 0px, 0px); height: 768px;"></canvas>
+            <div id="overlay">
+                <div id="winline"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="results" class="absolute">
+        <div id="score">
+            <span id="multiplier">0</span> x <img src="img/fridge.png">
+        </div>
+        <span id="status" class="absolute">No win!</span>
+    </div>
+
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--<script type="text/javascript" src="js/slot.js"></script>-->
+<script type="text/javascript">$(function() { SlotGame(); });</script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
